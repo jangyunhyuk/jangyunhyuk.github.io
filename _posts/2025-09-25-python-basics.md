@@ -3,15 +3,14 @@
 title: "파이썬 기초 (Python Basics)"
 description: "파이썬 기초 문법 요약 — 변수, 연산자, 문자열, 리스트, 제어문, 함수 등 개념 정리"  
 date: 2025-09-25 21:00:00 +0900
-categories: [Language, Python]                  # 첫 글자 대문자
-tags: [python, Python-Basics]         # 검색용 태그 확장
+categories: [Language, Python]
+tags: [python, Python-Basics]
 pin: false
 toc: true
-comments: false                             # 댓글 허용 (Chirpy 기준)
+comments: false
 render_with_liquid: false
 math: false
 mermaid: false
-
 lang: "ko"
 ---
 
