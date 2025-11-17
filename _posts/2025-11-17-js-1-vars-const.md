@@ -1,6 +1,7 @@
 ---
 # ====== 기본 Front Matter ======
 title: "변수와 상수"
+description: "변수(let)와 상수(const)의 개념과 사용법"
 date: 2025-11-17 21:00:00 +0900
 categories: [JavaScript, basics]   # 최대 2개 권장
 tags: [javascript, var, const]   # 소문자 권장
