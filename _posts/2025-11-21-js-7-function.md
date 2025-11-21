@@ -121,3 +121,52 @@ function greeting() { // 함수 선언
 // 출력 값
 // 안녕하세요!
 ```
+
+## 함수 표현식
+- 함수를 값처럼 변수에 저장하는 방식
+- 변수에 저장된 함수를 통해 호출 가능
+- 함수 선언문과 달리 호이스팅이 적용되지 않음
+
+```js
+function funcA() {
+    console.log("funcA");
+}
+
+let varA = funcA;
+varA(); // funcA
+```
+
+- 함수 표현식
+
+```js
+let varB = function funcB() { 
+    console.log("funcB");
+};
+
+varB(); // funcB
+```
+
+### 익명 함수
+- 함수 이름 없이 바로 함수값을 만들어 변수에 저장하는 방식
+- 주로 함수 표현식에서 사용됨
+- 익명 함수 자체는 호이스팅 X
+
+```js
+let varB = function () { 
+    console.log("funcB");
+};
+
+varB(); // funcB
+```
+
+### 화살표 함수
+- 함수를 더 빠르고 간결하게 만들기 위한 문법
+- function 키워드 대신 => 사용
+
+```js
+let varC = () => { 
+    return 1;
+};
+
+console.log(varC()); // 1
+```
