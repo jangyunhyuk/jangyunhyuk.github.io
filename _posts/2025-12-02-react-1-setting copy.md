@@ -2,9 +2,9 @@
 # ====== 기본 Front Matter ======
 title: "React 프로젝트 초기 세팅 (Vite)"
 description: "Vite를 사용한 React 프로젝트 초기 세팅 정리"
-date: 2025-12-02 14:00:00 +0900
+date: 2025-12-26 14:00:00 +0900
 categories: [react, react-basics]   # 최대 2개 권장
-tags: [react, component]   # 소문자 권장
+tags: [react, setting]   # 소문자 권장
 pin: false                 # 홈 상단 고정
 toc: true                  # 우측 TOC 표시
 comments: false             # 댓글
